@@ -1,0 +1,367 @@
+
+@font-face {
+    font-family: 'munro_smallregular';
+    src: url('fonts/munrosmall-webfont.eot');
+    src: url('fonts/munrosmall-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/munrosmall-webfont.woff') format('woff'),
+         url('fonts/munrosmall-webfont.ttf') format('truetype'),
+         url('fonts/munrosmall-webfont.svg#munro_smallregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'silkscreennormal';
+    src: url('fonts/slkscr-webfont.eot');
+    src: url('fonts/slkscr-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/slkscr-webfont.woff') format('woff'),
+         url('fonts/slkscr-webfont.ttf') format('truetype'),
+         url('fonts/slkscr-webfont.svg#silkscreennormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'langdon-webfont';
+    src: url('fonts/langdon-webfont.eot');
+    src: url('fonts/langdon-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/langdon-webfont.woff') format('woff'),
+         url('fonts/langdon-webfont.ttf') format('truetype'),
+         url('fonts/langdon-webfont.svg#langdonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'old_letterpress_typeregular';
+    src: url('fonts/old_letterpress_type-webfont.eot');
+    src: url('fonts/old_letterpress_type-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/old_letterpress_type-webfont.woff2') format('woff2'),
+         url('fonts/old_letterpress_type-webfont.woff') format('woff'),
+         url('fonts/old_letterpress_type-webfont.ttf') format('truetype'),
+         url('fonts/old_letterpress_type-webfont.svg#old_letterpress_typeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+canvas{
+	background-color: #FFF;
+}
+
+body{
+
+	background-color: #fff;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+.backsky {
+	height: 100vh;
+//	background: #3db8b1; /* Old browsers */
+//background: -moz-linear-gradient(top,  #3dA1b8 0%, #90d6da 100%); /* FF3.6+ */
+//background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3dA1b8), color-stop(100%,#90d6da)); /* Chrome,Safari4+ */
+//background: -webkit-linear-gradient(top,  #3dA1b8 0%,#90d6da 100%); /* Chrome10+,Safari5.1+ */
+//background: -o-linear-gradient(top,  #3dA1b8 0%,#90d6da 100%); /* Opera 11.10+ */
+//background: -ms-linear-gradient(top,  #3dA1b8 0%,#90d6da 100%); /* IE10+ */
+//background: linear-gradient(to bottom,  #3dA1b8 0%,#90d6da 100%); /* W3C */
+//filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3dA1b8', endColorstr='#90d6da',GradientType=0 ); /* IE6-9 */
+
+//	position: absolute;
+	width: 100%;
+
+}
+
+#three{
+ 
+
+}
+.text{
+	font-family: 'langdon-webfont';
+	
+width: 800px;
+color: #000;
+margin-top: 10vh;
+left: 50%;
+margin-left: -400px;
+
+   	position: absolute;
+    text-align: center;
+
+}
+#clouds{
+    position: absolute;
+    background-color:rgba(255,0,0,0);
+}
+.presents{
+    line-height: 18px;
+    font-size: 20px;
+    padding-bottom: 30px;
+    color: #445356;
+}
+.date{
+    line-height: 48px;
+    font-size: 60px;
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 160px;
+    margin-left: 120px;
+    float: left;
+    background-color: orange;
+    border-right: 10px solid #FF8800;
+    color: black;
+    margin-top: 15px;
+    margin-right: 20px;
+    padding-right: 20px;
+}
+.title{
+    line-height: 128px;
+font-size: 140px;
+    -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: #ccc;
+}
+
+#sponsorHeader {
+    height: 135px;
+    line-height: 100px;
+    background-color: orange;
+    border-top: 10px solid #000;
+    text-align: center;
+    text-transform: lowercase;
+    font-size: 100px;
+    color: #fff;
+    font-family: 'langdon-webfont';
+    position: absolute;
+    top: 100vh;
+    z-index: -2;
+    width: 100%;
+    padding-top: 50px;
+
+}
+
+#sponsorHeaderPadding {
+    height: 40px;
+     padding-top: 50px;
+}
+#sponsorHeaderTitleBackGround {
+    background-color: white;
+
+    position: absolute;
+    top: 100vh;
+    left:50%;
+    margin-top: 60px;
+    margin-left: -200px;
+
+    z-index: -1;
+
+    width: 400px;
+    height: 100px;
+
+}
+#sponsorGraphicBackLeft{
+    display: none;
+    width: 50%;
+    height: 135px;
+    background-color: orange;
+    z-index: -1;
+    position: absolute;
+    top: 100vh;
+    overflow:hidden;
+    margin-left: -195px;
+}
+#sponsorGraphicBackRight{
+    display: none;
+    width: 50%;
+    height: 135px;
+    background-color: orange;
+    z-index: -1;
+    position: absolute;
+    top: 100vh;
+    right: 0;
+   overflow:hidden;
+    margin-right: -195px;
+}
+
+#sponsorGraphic{
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    top: 100vh;
+}
+
+.mediaFacebook{
+    background-image: url("../img/48x48_facebook.png");
+}
+.mediaTwitter{
+    background-image: url("../img/48x48_twitter.png");
+    
+}
+.mediaEmail{
+    background-image: url("../img/48x48_email.png");
+    
+}
+.maps iframe {
+    pointer-events: none;
+}
+.LGE {
+    padding-top: 16px;
+    //padding-left: 120px;
+}
+.container {
+    font-size: 18px;
+}
+.sponsorcontact {
+    padding: 30px;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 21px;
+}
+@media (min-width: 1200px){
+    .container {
+        width: 970px;
+    }
+}
+h2{
+    font-family: 'langdon-webfont';
+    font-size: 100px;
+
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+.mediagroup{
+    margin-left: 110px;
+    }
+.mediabox{
+    padding: 20px;
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+.info{
+    line-height: 44px;
+    font-size: 30px;
+    padding-left: 15px;
+    padding-top: 13px;
+    text-align: left;
+}
+.register{
+    line-height: 48px;
+font-size: 48px;
+
+padding: 20px;
+margin-left: 120px;
+width: 560px;
+
+//background-color: white;
+color: black;
+-webkit-text-stroke-color: orange;
+margin-top: 20px;
+text-transform: uppercase;
+border: 10px solid #000;
+}
+#bottom{
+    border-top: 10px solid #000;
+    margin-top: 50px;
+    position: absolute;
+    background-color: #BBB;
+}
+.footerChapters {
+    padding-top: 12px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 10px;
+    font-family: 'langdon-webfont';
+    position: absolute;
+    left: 50%;
+    width: 300px;
+    margin-left: -150px;
+    margin-top: 110px;
+
+}
+.footerChapters h3 {
+    font-size: 46px;
+    margin-top: 10px;
+}
+.footerChapters a {
+    color: black;
+}
+.sponsor {
+    float: left;
+    padding: 20px;
+}
+
+.fog{
+	background-image: url("overlay.png");
+	background-repeat: repeat;
+	-khtml-opacity:.50; 
+	-moz-opacity:.50; 
+	-ms-filter:"alpha(opacity=50)";
+	filter:alpha(opacity=50);
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.5);
+		opacity:.50; 
+		-webkit-filter: grayscale(100%) brightness(340%);  
+
+	height: 100vh;
+	background-color: #2F581D;
+	position: absolute;
+	margin-top: 0vh;
+	width: 100%;
+
+}
+.grassfog{
+    background-image: url("overlay.png");
+    background-repeat: repeat;
+    -khtml-opacity:.50; 
+    -moz-opacity:.50; 
+    -ms-filter:"alpha(opacity=50)";
+    filter:alpha(opacity=50);
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.5);
+        opacity:.25; 
+        -webkit-filter: grayscale(100%) brightness(340%);  
+
+    height: 100vh;
+    background-color: #2F581D;
+    position: absolute;
+    margin-top: 0vh;
+    width: 100%;
+
+}
+.grass{
+    background-image: url("overlay.png");
+    background-repeat: repeat;
+	margin-top: 80vh;
+	height: 20vh;
+	background: #27770f; /* Old browsers */
+background: -moz-linear-gradient(top,  #27770f 0%, #50c144 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#27770f), color-stop(100%,#50c144)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #27770f 0%,#50c144 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #27770f 0%,#50c144 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #27770f 0%,#50c144 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #27770f 0%,#50c144 100%) ; /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#27770f', endColorstr='#50c144',GradientType=0 ); /* IE6-9 */
+
+	position: fixed;
+	width: 100%;
+}
+.hills_back{
+	height: 10vh;
+	background-color: #2F581D;
+	position: absolute;
+	margin-top: 70vh;
+    display: none;
+	width: 100%;
+}
